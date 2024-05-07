@@ -1,0 +1,15 @@
+body {
+    min-height: 100 vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    font-size: 16 px;
+    background-color: black;
+    background-image: url('https://img.goodfon.ru/original/1920x1080/2/aa/zvezdy-beskonechnost-zvezdy-nochnoe-nebo-zvezdnoe-skoplenie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
