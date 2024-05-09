@@ -13,3 +13,10 @@ body {
     background-attachment: fixed;
 }
 
+.header__text {
+    line-height: 1.7;
+    font-size: 26px;
+    text-shadow: 0 0 2px black;
+    color: lightslategray;
+    transition: color 0.4ms;
+}
