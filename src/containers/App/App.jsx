@@ -1,5 +1,5 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import routes from "../../routes/routes.jsx";
+import routesConfig from "../../routes/routes.jsx";
 import Header from "../../components/Header/Header.jsx";
 import styles from "./App.module.css";
 
@@ -9,7 +9,7 @@ function App() {
       <div className={styles.wrapper}>
         <Header />
         <Routes>
-          {routes.map((route, index) => (
+          {routesConfig.map((route, index) => (
             <Route key={index} path={route.path} element={route.element} />
           ))}
         </Routes>
