@@ -1,0 +1,20 @@
+.wrapper {
+    width: 427px;
+    color: #3273a2;
+    margin-top: 45px;
+}
+.person__name {
+    padding: 10px;
+    border-radius: 3px 3px 3px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #ae72c2;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 5px solid #ae72c2;
+    padding: 20px;
+    font-weight: bold;
+}
